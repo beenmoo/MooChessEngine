@@ -9,5 +9,5 @@ add_library(moo_core STATIC
 
 target_include_directories(moo_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
-add_executable(moo Main.cpp)
+add_executable(moo main.cpp)
 target_link_libraries(moo PRIVATE moo_core)
